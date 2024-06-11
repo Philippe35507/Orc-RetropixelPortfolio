@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-24 gap-10">
+    <main className="flex flex-col items-center justify-between p-10 gap-10">
       <h1>Are you looking to become a true web dev warrior?</h1>
       <div className="nes-container with-title is-centered bg-blue-200 w-[45rem] ">
         <p className="title">Greetings!</p>

@@ -16,8 +16,26 @@ export default function Header() {
       </button>
 
       {isShowModal && (
-        <div className="nes-dialog absolute top-20">
-          <p className="title">Dialog</p>
+        <div className="nes-dialog absolute top-20 bg-white z-10">
+          <div className="flex justify-end">
+            <button onClick={() => setIsShowModal(false)}>
+              <i className="nes-icon close is-small"></i>
+            </button>
+          </div>
+          <div className="p-3">
+            <p className="title text-sm">Join the Mighty Horde!</p>
+            <div className="flex gap-2 justify-center items-center">
+              <button type="button" className="nes-btn">
+                <i className="nes-icon github is-small"></i>
+              </button>
+              <button type="button" className="nes-btn">
+                <i className="nes-icon youtube is-small"></i>
+              </button>
+              <button type="button" className="nes-btn">
+                <i className="nes-icon gmail is-small"></i>
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </header>
