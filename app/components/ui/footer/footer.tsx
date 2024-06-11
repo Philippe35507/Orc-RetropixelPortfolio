@@ -20,14 +20,14 @@ export default function Footer() {
               </button>
             </div>
             <div className="flex flex-col justify-center items-center gap-5">
-              <i className="nes-jp-logo"></i>
+              <i className="snes-jp-logo"></i>
               <p>My Projects</p>
               <Link href={"#"}>
                 <div className="nes-container with-title is-dark">
                   <p className="title">Textual Games</p>
                   <p>
-                    Textual Games offers a nostalgic journey into the realm of
-                    classic MUD gaming, infused with an innovative twist of AI.
+                    A nostalgic journey into the realm of classic MUD gaming
+                    infused with an innovative twist of AI.
                   </p>
                 </div>
               </Link>
@@ -36,9 +36,7 @@ export default function Footer() {
                   <p className="title">Orcish-ai-nextjs-framework</p>
                   <p>
                     It is a powerful tool that leverages the capabilities of
-                    OpenAI API, OpenAI's advanced language models, to integrate
-                    AI functionalities seamlessly into your Next.js
-                    applications.
+                    OpenAI API.
                   </p>
                 </div>
               </Link>
@@ -46,9 +44,8 @@ export default function Footer() {
                 <div className="nes-container with-title is-dark">
                   <p className="title">Orcish-openai-connector</p>
                   <p>
-                    Orcish OpenAI Connector is a simple completion and image
-                    creator application powered by OpenAI's language and image
-                    models.
+                    A simple completion and image creator application powered by
+                    OpenAI.
                   </p>
                 </div>
               </Link>
