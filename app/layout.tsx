@@ -3,6 +3,7 @@ import { Press_Start_2P } from "next/font/google";
 import "./globals.css";
 import "nes.css/css/nes.min.css";
 import { Header } from "./components/ui";
+import Footer from "./components/ui/footer/footer";
 
 const PressStart2P = Press_Start_2P({ weight: "400", subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={PressStart2P.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
