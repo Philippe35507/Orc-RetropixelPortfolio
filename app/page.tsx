@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24 gap-10">
@@ -10,6 +13,39 @@ export default function Home() {
           coding and task completion methods, offering valuable knowledge and
           insights along the way.
         </p>
+      </div>
+      <div className="nes-container is-rounded bg-white">
+        <div className="flex items-center justify-center">
+          <Image
+            width={100}
+            height={100}
+            src={"/axe-and-shield.webp"}
+            alt="Axe & Shield"
+          />
+        </div>
+
+        <p className="text-center">These are my skills</p>
+
+        <div className="grid grid-cols-3">
+          <Link href="#" className="nes-badge">
+            <span className="is-dark">Next.js</span>
+          </Link>
+          <Link href="#" className="nes-badge">
+            <span className="is-primary">TypeScript</span>
+          </Link>
+          <Link href="#" className="nes-badge">
+            <span className="is-warning">JavaScript</span>
+          </Link>
+          <Link href="#" className="nes-badge">
+            <span className="is-success">Tailwind</span>
+          </Link>
+          <Link href="#" className="nes-badge">
+            <span className="is-dark">Shadcn</span>
+          </Link>
+          <Link href="#" className="nes-badge">
+            <span className="is-success">Warrior</span>
+          </Link>
+        </div>
       </div>
     </main>
   );
